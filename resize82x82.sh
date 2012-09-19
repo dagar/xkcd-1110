@@ -4,5 +4,5 @@
 
 for file in *.png
 do
-  convert $file -resize 12.5% small/$file
+  convert $file -resize 4% small82x82/$file
 done
