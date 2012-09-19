@@ -14,8 +14,7 @@ Usage
 -----
 
     bash grab.sh
-    bash resize.sh 32
-    python combine 32
+    python xkcd1110_stitch.py 32
 
 
 [s32]: http://dagar.ca/xkcd_1110_combined_32.png
