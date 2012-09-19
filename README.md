@@ -5,8 +5,10 @@ Quick and dirty BASH and python scripts used to hack together xkcd 1110.
 
 Sample Output
 ----
-    [sample32][s32]
-    [sample256][s256]
+[2592 x 1024 (32x32 tiles)][s32]
+[20736 x 8192 (256x256 tiles)][s256]
+
+The full size image with no tiling resizing would be 165888x65536 or 10 gigapixels!
 
 Usage
 -----
