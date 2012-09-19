@@ -4,6 +4,9 @@ import os
 TILESIZE = 256
 
 def coord(x, y):
+  '''
+  converts x, y coordinates to tile naming format
+  '''
 
   if x > 0:
     #east
@@ -24,6 +27,7 @@ def coord(x, y):
   if os.path.isfile(f):
     return f
   else:
+    # insert black or white tiles in the empty spots
     if y > 0:
         return "white.png"
     else:
@@ -31,7 +35,7 @@ def coord(x, y):
 
 
 def merge_images( xmin, xmax, ymin, ymax, output) :
-    out = Image.new( 'RGB', ((xmax-xmin+1) * TILESIZE, (ymax-ymin+1) * TILESIZE) )
+    out = Image.new('RGB', ((xmax-xmin+1) * TILESIZE, (ymax-ymin+1) * TILESIZE))
 
     imx = 0;
     for x in range(xmin, xmax+1) :
@@ -44,5 +48,6 @@ def merge_images( xmin, xmax, ymin, ymax, output) :
         imx += TILESIZE
 
     out.save( output )
+
 
 merge_images(-32, 48, -13, 18, "output.png")
