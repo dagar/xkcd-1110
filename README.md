@@ -3,6 +3,9 @@ xkcd-1110
 
 Quick and dirty BASH and python scripts used to hack together [xkcd 1110 Click and Drag][xkcd].
 
+![xkcd1110_thumb](../master/xkcd_1110_combined_thumbnail.png?raw=true)
+
+
 Sample Output
 ----
 * [2592 x 1024 (tiles resized to 32x32)][s32]
