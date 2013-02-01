@@ -21,6 +21,6 @@ Usage
 
 
 [xkcd]: http://xkcd.com/1110/
-[s32]: http://dagar.ca/xkcd_1110_combined_32.png
-[s256]: http://dagar.ca/xkcd_1110_combined_256.png
+[s32]: ../master/xkcd_1110_combined_32.png
+[s256]: ../master/xkcd_1110_combined_256.png
 
