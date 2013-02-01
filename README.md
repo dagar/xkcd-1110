@@ -1,7 +1,8 @@
 xkcd-1110
 =========
 
-Quick and dirty BASH and python scripts used to hack together xkcd 1110.
+Quick and dirty BASH and python scripts used to hack together xkcd 1110 Click and Drag.
+http://xkcd.com/1110/
 
 Sample Output
 ----
