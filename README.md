@@ -3,7 +3,7 @@ xkcd-1110
 
 Quick and dirty scripts (BASH and python) used to grab and piece together [xkcd 1110: Click and Drag][xkcd].
 
-![xkcd1110_thumb](../master/xkcd_1110_combined_32.png?raw=true)
+![xkcd1110_thumb](../master/sample_output/xkcd_1110_combined_32.png?raw=true)
 
 
 Sample Output
@@ -22,6 +22,6 @@ Usage
 
 
 [xkcd]: http://xkcd.com/1110/
-[s32]: ../master/xkcd_1110_combined_32.png
-[s256]: ../master/xkcd_1110_combined_256.png
+[s32]: ../master/sample_output/xkcd_1110_combined_32.png
+[s256]: ../master/sample_output/xkcd_1110_combined_256.png
 
