@@ -3,6 +3,8 @@
 # brute force script to try and grab all the tiles
 #  example http://imgs.xkcd.com/clickdrag/6n1e.png
 
+cd images
+
 for lat in n s
 do
   for long in e w
