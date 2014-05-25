@@ -15,9 +15,11 @@ The original tiles are 2048x2048. The full size image with no tile resizing woul
 
 Usage
 -----
-  First grab all the tiles
+
+    # First grab all the tiles (saves to the images/ directory)
     $ bash grab.sh
-  Then glue them together with the desired size of each tile
+
+    # Then glue them together with the desired size of each tile
     $ python xkcd1110_stitch.py 32
 
 
