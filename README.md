@@ -3,7 +3,7 @@ xkcd-1110
 
 Quick and dirty BASH and python scripts used to hack together [xkcd 1110 Click and Drag][xkcd].
 
-![xkcd1110_thumb](../master/xkcd_1110_combined_thumbnail.png?raw=true)
+![xkcd1110_thumb](../master/xkcd_1110_combined_32.png?raw=true)
 
 
 Sample Output
